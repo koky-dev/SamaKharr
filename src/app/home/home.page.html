@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Samakhar
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container" class="bg-img">
+    <div class="welcome" expand="block" id="container">
+      <p class="welcome-text">Bienvenue chez <strong class="app-name">Samakhar</strong></p>
+      <p class="choice">Veuillez choisir votre profil !</p>
+    </div><br>
+    <div class="profile-button">
+      <ion-button  expand="block" class="seller-button" routerLink="/product">
+        <ion-icon name="person-outline" slot="start"></ion-icon>
+        Je suis Vendeur
+      </ion-button>
+      <ion-button  expand="block" class="buyer-button" routerLink="/product">
+        <ion-icon name="person-outline" slot="start"></ion-icon>
+        Je suis Acheteur
+      </ion-button>
+    </div>
+  </div>
+</ion-content>

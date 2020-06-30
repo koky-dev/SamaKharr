@@ -1,0 +1,73 @@
+.bg-img {
+  padding: 1px;
+  height: 100%;
+  width: 100%;
+  background-image: url('../../assets/moutons-2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome{
+  text-align: center;
+  position: absolute;
+  top: 110px;
+  background: #ffffff;
+  width: auto;
+  margin: 10px 10px;
+}
+
+.welcome .welcome-text{
+  color: #000;
+  text-align: center;
+  font-size: 22px;
+}
+
+.welcome p strong{
+  color: rgb(252, 202, 64);
+  text-transform: uppercase;
+}
+
+.choice{
+  font-size: 14px;
+}
+
+.profile-button {
+  --background: #383a3e;
+  position: absolute;
+  bottom: 5px;
+  width: 96%;
+  --color: #ffffff;
+  margin-left: 2%;
+}
+
+.buyer-button, .seller-button{
+  --background: rgb(252, 202, 64);
+}
+
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 45%;
+  transform: translateY(-50%);
+}
+
+// #container strong {
+//   font-size: 20px;
+//   line-height: 26px;
+// }
+
+// #container p {
+//   font-size: 16px;
+//   line-height: 22px;
+
+//   color: #8c8c8c;
+
+//   margin: 0;
+// }
+
+// #container a {
+//   text-decoration: none;
+// }
