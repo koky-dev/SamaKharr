@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>S'inscrire</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container">
+    <ion-item>
+      <ion-label color="light">Nom complet</ion-label>
+      <ion-input color="light" placeholder="Prénom et nom" type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label color="light">Eamil</ion-label>
+      <ion-input color="light" placeholder="Adresse E-mail" type="email"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label color="light">Mot de passe</ion-label>
+      <ion-input color="light" placeholder="Mot de passe" type="number"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label color="light">Re</ion-label>
+      <ion-input color="light" placeholder="Retaper le mot de passe" type="number"></ion-input>
+    </ion-item><br>
+<br><br>
+  <ion-button shape="round" expand="block">Enregistrer</ion-button>
+  <ion-item vertical=bottom lines=none>
+    <p>Déjà un compte ?</p><br>
+    <ion-button slot="end" color="light" fill="clear" expand=full routerLink="/buyer-login">Se Connecter</ion-button>
+  </ion-item>
+</div>
+</ion-content>

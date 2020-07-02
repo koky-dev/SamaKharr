@@ -1,12 +1,42 @@
 <ion-header>
   <ion-toolbar>
     <ion-buttons slot="start">
-      <ion-back-button defaultHref="/home" text="Accueil"></ion-back-button>
+      <ion-back-button defaultHref="/home"></ion-back-button>
     </ion-buttons>
     <ion-title>Nouveau Produit</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <div class="container">
+    <ion-item>
+      <ion-label color="light">Nom</ion-label>
+      <ion-input color="light" placeholder="Nom" type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label color="light">Poids</ion-label>
+      <ion-input color="light" placeholder="Poids" type="number"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label color="light">Age</ion-label>
+      <ion-input color="light" placeholder="Age en mois" type="number"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label color="light">Taille</ion-label>
+      <ion-input color="light" placeholder="Nom" type="number"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label color="light">Race</ion-label>
+      <ion-input color="light" placeholder="Race" type="text"></ion-input>
+    </ion-item><br>
+  
+    
+    <ion-fab horizontal="center">
+      <ion-fab-button>
+        <ion-icon name="camera"></ion-icon>
+      </ion-fab-button>
+  </ion-fab>
+<br><br><br><br>
+  <ion-button shape="round" expand="block">Enregistrer</ion-button>
+</div>
 </ion-content>

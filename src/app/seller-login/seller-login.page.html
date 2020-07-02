@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Se Connecter</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container" vertical=center slot="fixed">
+    <ion-item>
+      <ion-label color="light">Email</ion-label>
+      <ion-input type="email" placeholder="Adresse mail" color=light></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label color="light">Mot de passe</ion-label>
+      <ion-input type="password" placeholder="Mot de passe" color=light></ion-input>
+    </ion-item>
+    <ion-item lines="none">
+      <ion-button slot="end" color="light" fill="clear">Mot de passe oublié ?</ion-button>
+    </ion-item>
+
+    <ion-button shape=round horizontal=center expand=block>Se Connecter</ion-button>
+
+    <ion-item vertical=bottom lines=none>
+      <p>Pas encore de compte</p><br>
+      <ion-button slot="end" color="light" fill="clear" expand=full routerLink="/seller-signin">S'inscrire</ion-button>
+    </ion-item>
+  </div>
+</ion-content>
